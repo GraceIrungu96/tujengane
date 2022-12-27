@@ -1,0 +1,45 @@
+<footer class="flex justify-evenly  bg-fuchsia-700 flex-wrap bottom-0">
+  <div class="flex flex-col">
+      <img class="rounded-full w-16 h-16"  src="{{ asset('image/logo.png') }}">
+      <h3>TUJIJENGE</h3>
+  </div>
+  <div class="wrapper flex justify-end items-center ">
+      <div
+          class="icon relative cursor-pointer rounded-full text-2xl p-1 m-1 w-8 h-8 flex justify-center items-center flex-col bg-blue-900 facebook">
+
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+      </div>
+      <div
+          class="icon relative cursor-pointer rounded-full text-2xl p-1 m-1 w-8 h-8  flex justify-center items-center flex-col bg-blue-900 twitter">
+
+          <span><i class="fa-brands fa-twitter"></i></span>
+      </div>
+      <div
+          class="icon relative cursor-pointer rounded-full text-2xl p-1 m-1 w-8 h-8  flex justify-center items-center flex-col bg-blue-900 instagram">
+
+          <span><i class="fa-brands fa-instagram"></i></span>
+      </div>
+      <div
+          class=" icon relative cursor-pointer rounded-full text-2xl p-1 m-1 w-8 h-8  flex justify-center items-center flex-col bg-blue-900 github">
+
+          <span><i class="fa-brands fa-github"></i></span>
+      </div>
+      <div
+          class="icon relative cursor-pointer rounded-full text-2xl p-1 m-1 w-8 h-8  flex justify-center items-center flex-col bg-blue-900 discord">
+
+          <span><i class="fa-brands fa-discord"></i></span>
+      </div>
+  </div>
+  <div class="flex flex-col justify-center items-center pr-3 text-xs">
+      <div>&copy; Copyright@GraceIrungu96</div>
+      <div>
+          <script>
+              document.write(new Date().getFullYear());
+          </script>
+      </div>
+      <div>
+          All Rights Reserved
+      </div>
+
+  </div>
+</footer>
