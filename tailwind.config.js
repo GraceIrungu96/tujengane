@@ -12,7 +12,10 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                poppins:['poppins'],
+                Marker:['Permanent Marker']
             },
+
         },
     },
 

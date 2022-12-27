@@ -24,7 +24,7 @@
 </head>
 
 <body class="font-sans antialiased">
-    <div class="min-h-screen bg-gray-600">
+    <div class="min-h-screen bg-fuchsia-300">
         @include('layouts.navigation')
 
         <!-- Page Heading -->
