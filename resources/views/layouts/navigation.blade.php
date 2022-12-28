@@ -2,8 +2,7 @@
     <div x-data="{ isOpen: false }" class=" mx-10 py-3 px-12 md:px-12 md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
             <div class="flex items-center">
-                <a href="{{ __('/') }}"><img class="w-16 h-16 rounded-full" src="{{ asset('image/logo.png') }}" alt=""
-                        class="logo" /></a>
+                <a href="{{ __('/') }}"><img class="w-16 h-16 rounded-full" src="{{ asset('image/logo.png') }}" alt=""/></a>
             </div>
             <!-- Mobile menu button -->
             <div class="flex md:hidden">

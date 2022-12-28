@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MembersController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,3 +29,9 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+//index all members
+Route::get('/members',[MembersController::class,'index'])->name('members');
+
+//index single members
+Route::get('/member',[MembersController::class,'show']);
