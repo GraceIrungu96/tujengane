@@ -17,6 +17,9 @@ use App\Http\Controllers\MembersController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/achievements', function () {
+    return view('achievements');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

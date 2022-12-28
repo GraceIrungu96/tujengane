@@ -15,7 +15,11 @@ module.exports = {
                 poppins:['poppins'],
                 Marker:['Permanent Marker']
             },
-
+            backgroundImage: {
+                'hero-pattern': "url('../image/bg-pattern-quotation.svg')",
+            
+            
+            },
         },
     },
 

@@ -40,7 +40,7 @@
                     class="lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-blue-400">
                     <span><i class="fa-solid fa-martini-glass-citrus pr-2"></i>Cocktails</span>
                 </a>
-                <a href="{{ __('foods') }}"
+                <a href="{{ __('achievements') }}"
                     class="lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-blue-400">
                     <span><i class="fa-solid fa-trophy pr-2"></i></i>Achievements</span>
                 </a>
